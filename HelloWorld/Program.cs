@@ -22,14 +22,15 @@ namespace HelloWorld
             const int TheNum = 50;
             Console.WriteLine(TheNum);
             char myLetter = 'A'; // always with single quotes!
-            double doubleInt = 12.55D; // ik denk dat er altijd een D achter een kommagestal moet staan maar ik ben nog niet zeker
+            double doubleInt = 12.55D; // you must add a 'D' at the eind of the number, the float
             Console.WriteLine(doubleInt);
             string firstName = "John";
             string lastName = "Doe";
             Console.WriteLine("Hello " + firstName + " " + lastName);
             int x = 50, y = 30, z = 70;
             Console.WriteLine(x + y + z);
-
+            long aNum = 15000000000L; // you must write an 'L' after the long number!
+            Console.WriteLine(aNum); 
         }
     }
 }

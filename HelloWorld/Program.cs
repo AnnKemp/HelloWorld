@@ -45,11 +45,21 @@ namespace HelloWorld
             double d1 = 12E4D;
             Console.WriteLine(f1);
             Console.WriteLine(d1);
-            /* bool */
+            /* BOOL */
             bool isCSharpFun = true;
             bool isFishTasty = false;
             Console.WriteLine(isCSharpFun);   // Outputs True
             Console.WriteLine(isFishTasty);   // Outputs False
+            /* implicit CASTING */
+            int getal = 9;
+            Console.WriteLine(getal);
+            double puntkomma = getal; // int wordt omgezet naar double
+            Console.WriteLine(puntkomma);
+            /* explicit CASTING */
+            double mijnkommaGetal = 9.78;
+            Console.WriteLine(mijnkommaGetal);
+            int mijnGetal = (int) mijnkommaGetal; // explicit casting via (int)
+            Console.WriteLine(mijnGetal);
         }
     }
 }

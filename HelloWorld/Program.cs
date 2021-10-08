@@ -68,6 +68,11 @@ namespace HelloWorld
             Console.WriteLine(Convert.ToDouble(theInt));
             Console.WriteLine(Convert.ToInt32(theDouble));
             Console.WriteLine(Convert.ToString(theBool));
+            /*-------------------------------------------------------------------*/
+            /* get user input */
+            Console.WriteLine("Enter Username"); 
+            string UserName = Console.ReadLine();
+            Console.WriteLine("Username is: " + UserName);
         }
     }
 }

@@ -73,6 +73,10 @@ namespace HelloWorld
             Console.WriteLine("Enter Username"); 
             string UserName = Console.ReadLine();
             Console.WriteLine("Username is: " + UserName);
+            /*-----------------------------------------------------------------------*/
+            Console.WriteLine("Enter your age:");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your age is: " + age);
         }
     }
 }

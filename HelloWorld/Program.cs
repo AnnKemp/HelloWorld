@@ -65,6 +65,9 @@ namespace HelloWorld
             double theDouble = 5.25;
             bool theBool = true;
             Console.WriteLine(Convert.ToString(theInt));
+            Console.WriteLine(Convert.ToDouble(theInt));
+            Console.WriteLine(Convert.ToInt32(theDouble));
+            Console.WriteLine(Convert.ToString(theBool));
         }
     }
 }

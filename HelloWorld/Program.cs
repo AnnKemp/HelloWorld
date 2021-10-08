@@ -143,6 +143,36 @@ namespace HelloWorld
                     break;
             }
             // Outputs "Thursday" (day 4)
+            /* switch with default */
+            int dag = 4;
+            switch (dag)
+            {
+                case 6:
+                    Console.WriteLine("Today is Saturday.");
+                    break;
+                case 7:
+                    Console.WriteLine("Today is Sunday.");
+                    break;
+                default:
+                    Console.WriteLine("Looking forward to the Weekend.");
+                    break;
+            }
+            // Outputs "Looking forward to the Weekend."
+            /* LOOPS: WHILE */
+            int i = 0;
+            while (i < 5) // gaat van 0 tot 4
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+            /* DO WHILE*/
+            int r = 0;
+            do
+            {
+                Console.WriteLine(r);
+                r++;
+            }
+            while (r < 5);
         }
     }
 }

@@ -58,7 +58,7 @@ namespace HelloWorld
             /* explicit CASTING */
             double mijnkommaGetal = 9.78;
             Console.WriteLine(mijnkommaGetal);
-            int mijnGetal = (int) mijnkommaGetal; // explicit casting via (int)
+            int mijnGetal = (int)mijnkommaGetal; // explicit casting via (int)
             Console.WriteLine(mijnGetal);
             /* convert to */
             int theInt = 10;
@@ -70,7 +70,7 @@ namespace HelloWorld
             Console.WriteLine(Convert.ToString(theBool));
             /*-------------------------------------------------------------------*/
             /* get user input */
-            Console.WriteLine("Enter Username"); 
+            Console.WriteLine("Enter Username");
             string UserName = Console.ReadLine();
             Console.WriteLine("Username is: " + UserName);
             /*-----------------------------------------------------------------------*/
@@ -184,7 +184,7 @@ namespace HelloWorld
                 Console.WriteLine(k);
             }
             /* FOREACH */
-            string[] cars = { "Volvo", "BMW", "Ford", "Mazda" }; 
+            string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
             foreach (string m in cars) //foreach (type variableName in arrayName) 
             {
                 Console.WriteLine(m);
@@ -207,6 +207,36 @@ namespace HelloWorld
                 }
                 Console.WriteLine(p);
             }
+            /* while + break*/
+            int n = 0;
+            while (n < 10)
+            {
+                Console.WriteLine(n);
+                n++;
+                if (n == 4)
+                {
+                    break;
+                }
+            }
+            /* while + continue */
+            int s = 0;
+            while (s < 10)
+            {
+                if (s == 4)
+                {
+                    s++;
+                    continue;
+                }
+                Console.WriteLine(s);
+                s++;
+            }
+
+            /* ARRAY'S */
+            string[] auto = { "Volvo", "BMW", "Ford", "Mazda" };
+            auto[0] = "Opel";
+            Console.WriteLine(auto[0]);
+            // Outputs Volvo
+            Console.WriteLine(auto.Length); // to count the elements of the array
         }
     }
 }

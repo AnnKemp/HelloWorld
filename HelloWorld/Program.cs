@@ -87,6 +87,16 @@ namespace HelloWorld
             string achterName = "Doe";
             string naam = string.Concat(voorName, achterName);
             Console.WriteLine(naam);
+            /* BOOLEAN */
+            int a = 10;
+            int b = 9;
+            Console.WriteLine(a > b); // returns True, because 10 is higher than 9
+            /*----------------------------------------------------------------------*/
+            Console.WriteLine(10 > 9); // returns True, because 10 is higher than 9
+            /*---------------------------------------------------------------------*/
+            int c = 10;
+            Console.WriteLine(c == 10); // returns True, because the value of c is equal to 10
+            /*------------------------------------------------------------------------------*/
 
         }
     }

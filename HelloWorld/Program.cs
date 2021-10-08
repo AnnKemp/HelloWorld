@@ -173,6 +173,22 @@ namespace HelloWorld
                 r++;
             }
             while (r < 5);
+            /* FOR LOOP */
+            for (int g = 2; g < 7; g++)
+            {
+                Console.WriteLine(g);
+            }
+            // will print even values:
+            for (int k = 0; k <= 20; k = k + 2)
+            {
+                Console.WriteLine(k);
+            }
+            /* FOREACH */
+            string[] cars = { "Volvo", "BMW", "Ford", "Mazda" }; 
+            foreach (string m in cars) //foreach (type variableName in arrayName) 
+            {
+                Console.WriteLine(m);
+            }
         }
     }
 }

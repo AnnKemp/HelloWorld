@@ -60,6 +60,11 @@ namespace HelloWorld
             Console.WriteLine(mijnkommaGetal);
             int mijnGetal = (int) mijnkommaGetal; // explicit casting via (int)
             Console.WriteLine(mijnGetal);
+            /* convert to */
+            int theInt = 10;
+            double theDouble = 5.25;
+            bool theBool = true;
+            Console.WriteLine(Convert.ToString(theInt));
         }
     }
 }

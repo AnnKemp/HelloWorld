@@ -77,6 +77,17 @@ namespace HelloWorld
             Console.WriteLine("Enter your age:");
             int age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Your age is: " + age);
+            /* OPERATORS */
+            int getal1 = 40 + 100;
+            int getal2 = getal1 + 60;
+            int getal3 = getal2 + getal1;
+            Console.WriteLine(getal3);
+            /* CONCATENATION */
+            string voorName = "John ";
+            string achterName = "Doe";
+            string naam = string.Concat(voorName, achterName);
+            Console.WriteLine(naam);
+
         }
     }
 }

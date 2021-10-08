@@ -189,6 +189,24 @@ namespace HelloWorld
             {
                 Console.WriteLine(m);
             }
+            /* BREAK */
+            for (int l = 3; l < 8; l++)
+            {
+                if (l == 7)
+                {
+                    break;
+                }
+                Console.WriteLine(l);
+            }
+            /* CONTINUE */
+            for (int p = 0; p < 22; p++)
+            {
+                if (p == 12)
+                {
+                    continue;
+                }
+                Console.WriteLine(p);
+            }
         }
     }
 }

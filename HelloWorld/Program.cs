@@ -230,13 +230,60 @@ namespace HelloWorld
                 Console.WriteLine(s);
                 s++;
             }
-
+            Console.WriteLine("------------------------------ARRAY'S---------------------------------");
             /* ARRAY'S */
             string[] auto = { "Volvo", "BMW", "Ford", "Mazda" };
             auto[0] = "Opel";
             Console.WriteLine(auto[0]);
             // Outputs Volvo
             Console.WriteLine(auto.Length); // to count the elements of the array
+            Console.WriteLine("------------------------------for-loop with array---------------------------------");
+            // for-loop with array
+            string[] caaaars = { "Mercedes", "BMW", "Rolls", "GM" };
+            for (int d = 0; d < caaaars.Length; d++)
+            {
+                Console.WriteLine(caaaars[d]);
+            }
+            Console.WriteLine("-------------------------------foreach with array--------------------------------");
+            // foreach with array
+            string[] coars = { "Volvo", "BMW", "Ford", "Mazda" };
+            foreach (string h in coars)
+            {
+                Console.WriteLine(h);
+            }
+            Console.WriteLine("-------------------------------sort array--------------------------------");
+            // Sort a string
+            string[] caars = { "Volvo", "BMW", "Ford", "Mazda" };
+            Array.Sort(caars);
+            foreach (string e in caars)
+            {
+                Console.WriteLine(e);
+            }
+            // Sort an int
+            int[] myNumbers = { 5, 1, 8, 9 };
+            Array.Sort(myNumbers);
+            foreach (int v in myNumbers)
+            {
+                Console.WriteLine(v);
+            }
+            /*-------------------WAYS TO CREATE AN ARRAY------------------------------------*/
+            // Create an array of four elements, and add values later
+            string[] urs = new string[4];
+
+            // Create an array of four elements and add values right away 
+            string[] ccrs = new string[4] { "Volvo", "BMW", "Ford", "Mazda" };
+
+            // Create an array of four elements without specifying the size 
+            string[] cers = new string[] { "Volvo", "BMW", "Ford", "Mazda" };
+
+            // Create an array of four elements, omitting the new keyword, and without specifying the size
+            string[] cors = { "Volvo", "BMW", "Ford", "Mazda" };
+            // However, you should note that if you declare an array and initialize it later, you have to use the new keyword:
+            // Declare an array
+            string[] caaaaaars;
+
+            // Add values, using new
+            caaaaaars = new string[] { "Volvo", "BMW", "Ford" };
         }
     }
 }

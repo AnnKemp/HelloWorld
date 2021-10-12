@@ -266,6 +266,7 @@ namespace HelloWorld
             {
                 Console.WriteLine(v);
             }
+
             /*-------------------WAYS TO CREATE AN ARRAY------------------------------------*/
             // Create an array of four elements, and add values later
             string[] urs = new string[4];
